@@ -1,1 +1,25 @@
 # HotelBookingSystem
+HotelBookingSystem/
+├─ src/
+│   ├─ dao/
+│   │   ├─ DBConnection.java
+│   │   ├─ BookingDAO.java
+│   │   ├─ RoomDAO.java
+│   │   └─ UserDAO.java
+│   ├─ model/
+│   │   ├─ Booking.java
+│   │   ├─ Room.java
+│   │   └─ User.java
+│   └─ servlet/
+│       ├─ ProcessPaymentServlet.java
+│       ├─ RoomServlet.java
+│       └─ UserServlet.java
+├─ WebContent/
+│   ├─ bookings.jsp
+│   ├─ admin.jsp
+│   ├─ payment.jsp
+│   ├─ login.jsp
+│   ├─ register.jsp
+│   └─ css/style.css
+└─ sql/
+    └─ hotel_schema.sql
