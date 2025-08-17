@@ -1,0 +1,104 @@
+/* Reset some default styles */
+body, h1, h2, table, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Forms */
+form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form input, form select, form button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Payment button */
+button.pay-btn {
+    background-color: #28a745;
+    padding: 8px 15px;
+}
+
+button.pay-btn:hover {
+    background-color: #218838;
+}
+
+/* Admin panel specific */
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+/* Center content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
